@@ -15,7 +15,7 @@ export default function LineGenerator(props) {
   return (
     <div className="line-generator">
       <button onClick={handleClick} disabled={loading}>
-        {loading ? "Loading..." : `Get ${props.type} Line`}
+        {loading ? "Loading..." : `Get ${props.type} line`}
       </button>
       {line && <p className="reference-line">“{line}.”</p>}
     </div>
